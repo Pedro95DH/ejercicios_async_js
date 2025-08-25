@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://c.pxhere.com/photos/90/ef/paper_old_texture_parchment_background_antique_out_of_date_structure-1057404.jpg!d");
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+select {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+img {
+  max-width: 300px;
+  margin-top: 20px;
+}
