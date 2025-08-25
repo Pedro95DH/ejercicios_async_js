@@ -32,7 +32,7 @@ select.addEventListener("change", () => {
   const imageUrl = select.value;
   if (imageUrl) {
     img.src = imageUrl;
-    img.style.display = "block";
+    img.style.display = "relative";
   } else {
     img.style.display = "none";
   }
